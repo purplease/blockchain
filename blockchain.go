@@ -2,6 +2,8 @@ package main
 
 import "time"
 
+const Difficulty = 2
+
 type Blockchain struct {
 	Chain []Block
 }
